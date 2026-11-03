@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>مدرّب وسيم</title>
+  <meta name="description" content="تطبيق لياقة شخصي: تمارين منزلية، وجبات جزائرية اقتصادية، وتتبّع التقدّم — كل البيانات على جهازك.">
+  <meta name="theme-color" content="#0f766e" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1412" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' blob: data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="مدرّب وسيم">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/home" class="brand"><img src="icons/icon.svg" alt="" width="28" height="28"><span id="app-title">مدرّب وسيم</span></a>
+    <div class="top-actions">
+      <button id="lang-toggle" class="icon-btn text" type="button">FR</button>
+      <a id="settings-link" class="icon-btn" href="#/settings" aria-label="الإعدادات"></a>
+    </div>
+  </header>
+  <main id="view" tabindex="-1" aria-live="polite">
+    <noscript>هذا التطبيق يحتاج JavaScript. / Cette application nécessite JavaScript.</noscript>
+  </main>
+  <nav id="nav" class="tabbar" aria-label="Navigation"></nav>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

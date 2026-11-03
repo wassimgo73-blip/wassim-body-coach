@@ -1,0 +1,10 @@
+# Never commit personal data: backups and body photos stay on your device.
+*.json.bak
+wassim-body-coach-*.json
+photos/
+*.jpg
+*.jpeg
+*.heic
+node_modules/
+test-results/
+.DS_Store
